@@ -1,1 +1,47 @@
 /* ini css */
+
+.celcius-container {
+    text-align: center;
+}
+
+.result-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea{
+    resize: none;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-family: math;
+    font-size: 14px;
+}
+
+.button {
+    height: 32px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+.blueviolet-color {
+    background-color: blueviolet;
+    color: white;
+}
+
+.darkorchid-color {
+    background-color: darkorchid;
+    color: white;
+}
+
+.darkmagenta-color {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.subjek-info {
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
+
