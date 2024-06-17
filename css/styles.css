@@ -1,12 +1,21 @@
 /* ini css */
 
-.celcius-container {
+.center{
+    text-align: center;
+    color: darkslateblue;
+}
+
+.celcius-container{
     text-align: center;
 }
 
 .result-container{
     display: flex;
     justify-content: space-evenly;
+}
+
+.left{
+    color: darkorchid;
 }
 
 .textarea{
