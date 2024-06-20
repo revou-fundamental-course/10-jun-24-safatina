@@ -6,72 +6,57 @@
     <title>Safatina Konversi Suhu</title>
     <!-- ini link css -->
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <header class="center">
-        <h1>Website Konversi Suhu</h1>
+
+<body class="body">
+    <header>
+
     </header>
  <!-- main content -->
-    <main>
-       <h3>Masukkan suhu derajat Celcius (&deg;C)!!! </h3>
-
+    <main class="center">
+        <h1> <strong>Website Konversi Suhu</strong></h1>
        <!-- ini section celcius -->
        <section class="celcius-container">
         <header>
-            <h4> Celcius (&deg;C); </h4>
+            <h4> <strong>Celcius (&deg;C); </strong></h4>
         </header>
 
         <section>
-            <textarea></textarea>
-            <section>
-                <button class="button darkorchid-color">Konversi</button>
-                <button class="button darkmagenta-color">Reset</button>
-                <button class="button darkorchid-color">Reverse</button>
-            </section>
-        </section>
+           <input type="number" placeholder="Celcius (&deg;C)" id="celcius" value="" class="element" >
+
+
         </section>
 
+            <section>
+                <button id="konversi" class="button darkorchid-color" >KONVERSI</button>
+                <button id="reverse" class="button darkorchid-color" >REVERSE</button>
+                <button id="reset" class="button darkmagenta-color">RESET</button>
+            </section>
+
+        </section>
 <section class="result-container">
     <section>
              <!-- section Fahrenheit -->
+             <h4> <strong>Fahrenheit (&deg;F);</strong></h4>
         <section>
-        <header>
-            <h4>Fahrenheit (&deg;F);</h4>
-        </header>
-
+    
+            
     </section>
-        <textarea></textarea>
+    <input type="number" placeholder="Fahrenheit (&deg;F)" id="fahrenheit" value="" class="element">
     </section>
 
     <!-- section calculate -->
     <section>
     <header>
-        <h4>Conversi calculate</h4>
+        <h4> <strong>Conversi calculate</strong></h4>
     </header>
 
     <section>
-        <textarea></textarea>
-    </section>   
+        <input type="text" id="rumus" readonly class="text">
+    </section>  
     </section>
 </section>
-
-<hr/>
-        <!-- Section formula -->
-         <section>
-            <header class="left">
-                <h1> Cara Konfersi dari Celcius (&deg;C) ke Fahrenheit (&deg;F);</h1>
-            </header>
-
-            <p>Suhu <span class="subjek-info">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="subjek-info">S</span> dalam derajat Celcius(&deg;C) </p>
-            
-            <p>
-                <span class="subjek-info">S</span><sub>(&deg;F)</sub> =   <span class="subjek-info">S</span><sub>(&deg;C)</sub> x 9/5 + 32
-            </p>
-
-            <p>
-                <span class="subjek-info">S</span><sub>(&deg;C)</sub>=   <span class="subjek-info">S</span><sub>(&deg;F)</sub> (- 32) / 1,8
-            </p>
-        </section>
     </main>
     <!-- ini link javascript -->
     <script src="js/script.js"></script>
